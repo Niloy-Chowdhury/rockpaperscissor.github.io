@@ -1,0 +1,45 @@
+:root{
+    --color: white;
+    --hoverColor: tomato;
+}
+body{
+    /* background-color: navajowhite; */
+    background-image: url(bg/yellowBg.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.nav{
+    float: right;
+    margin-top: 15px;
+}
+.nav a{
+    color: var(--color);
+    text-decoration: none;    
+    font-weight: 600;
+    padding: 5px;
+    margin-right: 20px;
+}
+.nav a:hover{
+    color: var(--hoverColor);
+    background-color: var(--color);
+    border-radius: 7px;
+    transition: 0.5s;
+}
+.aboutMe{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    border-radius: 20px;
+    border-top: 5px dashed tomato;
+    border-bottom: 5px dashed tomato;
+}
+.aboutMe p{ 
+    padding: 0 20px;
+    margin-top: -3px;
+}
